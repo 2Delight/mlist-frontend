@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  mlist-frontend:
+    build: .
+    ports:
+      - '80:80'
+    volumes:
+      - './nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf:ro'
