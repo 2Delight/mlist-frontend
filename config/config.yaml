@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+metrics:
+  port: 2112
+
+db:
+  schema: "postgres"
+  user: "user"
+  password: "password"
+  ip: "db"
+  port: 5432
+  database: "db"
+  ssl: "disable"
+  migrations_path: file://migrations
+
+logger:
+  level: debug
