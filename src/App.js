@@ -126,7 +126,7 @@ export default function App() {
           <header className="header">
             <div>
               <h1>Models Dashboard</h1>
-              <p>List, add, update, and delete models from your backend.</p>
+              <p>List, add, update, and delete models.</p>
             </div>
             <button className="button button-secondary" onClick={loadModels} disabled={loading}>
               {loading ? "Refreshing..." : "Refresh"}
